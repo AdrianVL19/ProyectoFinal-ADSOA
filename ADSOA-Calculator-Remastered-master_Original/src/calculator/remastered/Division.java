@@ -7,7 +7,7 @@ package calculator.remastered;
 
 /**
  *
- * @author Andres
+ * @author Adrian
  */
 public class Division extends javax.swing.JFrame {
 

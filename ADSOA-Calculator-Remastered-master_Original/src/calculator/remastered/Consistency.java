@@ -9,7 +9,7 @@ import javax.swing.SwingUtilities;
 
 /**
  *
- * @author Andres
+ * @author Adrian
  */
 public class Consistency {
         int contkill;

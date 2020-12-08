@@ -7,7 +7,7 @@ package calculator.remastered;
 
 /**
  *
- * @author Andres
+ * @author Adrian
  */
 public class Addition extends javax.swing.JFrame {
 

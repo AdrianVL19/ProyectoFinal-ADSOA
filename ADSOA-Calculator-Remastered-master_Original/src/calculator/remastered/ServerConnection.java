@@ -12,7 +12,7 @@ import java.net.Socket;
 
 /**
  *
- * @author Andres
+ * @author Adrian
  */
 public class ServerConnection {
     public void ConnectionExchange(){

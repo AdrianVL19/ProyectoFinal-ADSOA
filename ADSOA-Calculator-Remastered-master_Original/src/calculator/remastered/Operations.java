@@ -7,7 +7,7 @@ package calculator.remastered;
 
 /**
  *
- * @author Andres
+ * @author Adrian
  */
 public class Operations {
     double addtotal;

@@ -9,7 +9,7 @@ import java.sql.Timestamp;
 
 /**
  *
- * @author Andres
+ * @author Adrian
  */
 public class Main extends javax.swing.JFrame {
     Operations num = new Operations();
@@ -102,25 +102,33 @@ public class Main extends javax.swing.JFrame {
         int val=ts1.hashCode(); 
         
             if("/".equals(textop)){
-                txtR.setText("Result:" + num.division(castA, castB)+ '\n' + "HASH: " + val + "\n" + "ID :" + id);
+                txtR.setText(castA + " / " + castB + " Result:" + num.division(castA, castB)+ '\n' + "HASH: " + val + "\n" + "ID :" + id);
+                System.out.println(castA + " / " + castB + " Result:" + num.division(castA, castB));
+                System.out.println("HASH: " + val + "\n" + "ID :" + id);
                 Division d = new Division();
                 d.Divtext.setText(txtR.getText());
                 d.setVisible(true);
             }
             else if("*".equals(textop)){
-                txtR.setText("Result:" + num.multiplication(castA, castB)+ '\n' + "HASH: " + val + "\n" + "ID :" + id);
+                txtR.setText(castA + " * " + castB +" Result:" + num.multiplication(castA, castB)+ '\n' + "HASH: " + val + "\n" + "ID :" + id);
+                System.out.println(castA + " * " + castB +" Result:" + num.multiplication(castA, castB));
+                System.out.println("HASH: " + val + "\n" + "ID :" + id);
                 Multiplication m = new Multiplication();
                 m.Multext.setText(txtR.getText());
                 m.setVisible(true);
             }
             else if("+".equals(textop)){
-                txtR.setText("Result:" + num.addition(castA, castB)+ '\n' + "HASH: " + val + "\n" + "ID :" + id);
+                txtR.setText(castA + " + " + castB +" Result:" + num.addition(castA, castB)+ '\n' + "HASH: " + val + "\n" + "ID :" + id);
+                System.out.println(castA + " + " + castB +" Result:" + num.addition(castA, castB));
+                System.out.println("HASH: " + val + "\n" + "ID :" + id);
                 Addition a = new Addition();
                 a.Addtext.setText(txtR.getText());
                 a.setVisible(true); 
             }
             else if("-".equals(textop)){
-                txtR.setText("Result:" + num.sustraction(castA, castB)+ '\n' + "HASH: " + val + "\n" + "ID :" + id);
+                txtR.setText(castA + " - " + castB +" Result:" + num.sustraction(castA, castB)+ '\n' + "HASH: " + val + "\n" + "ID :" + id);
+                System.out.println(castA + " - " + castB +" Result:" + num.sustraction(castA, castB));
+                System.out.println("HASH: " + val + "\n" + "ID :" + id);
                 Sustraction s = new Sustraction();
                 s.Sustext.setText(txtR.getText());
                 s.setVisible(true);

@@ -7,7 +7,7 @@ package calculator.remastered;
 
 /**
  *
- * @author Andres
+ * @author Adrian
  */
 public class Sustraction extends javax.swing.JFrame {
 
